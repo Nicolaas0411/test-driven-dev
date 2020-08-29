@@ -1,0 +1,24 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "test driven dev example",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "mocha --require ts-node/register --watch-extensions ts 'test/**/*.ts'",
+    "start": "tsc src/app.ts"
+  },
+  "author": "Nicolaas Vercuiel",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.9.0-alpha.6"
+  }
+}
